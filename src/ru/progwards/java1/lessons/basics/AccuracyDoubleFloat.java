@@ -18,11 +18,11 @@ public class AccuracyDoubleFloat {
         return V;
     }
     public static double calculateAccuracy(double radius) {
-        double p1 = 3.14;
-        double radius1 = 6371.2;
+        double p1 = 3.14d;
+        double radius1 = 6371.2d;
         float p2 = 3.14f;
         float radius2 = 6371.2f;
-        double Raz = (4/3*p1*radius1*radius1*radius1) - (4f/3f*p2*radius2*radius2*radius2);
+        double Raz = (4d/3d*p1*radius1*radius1*radius1) - (4f/3f*p2*radius2*radius2*radius2);
         return Raz;
 
     }
