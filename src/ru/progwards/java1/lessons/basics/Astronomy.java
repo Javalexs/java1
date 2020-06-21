@@ -2,12 +2,12 @@ package ru.progwards.java1.lessons.basics;
 
 public class Astronomy {
     public static void main(String[] args) {
-        System.out.println(sphereSquare (1.0d));
-        System.out.println(earthSquare (6371.2d));
-        System.out.println(mercurySquare(2439.7d));
-        System.out.println(jupiterSquare (71492.0d));
-        System.out.println(earthVsMercury( 6371.2d, 2439.7d));
-        System.out.println(earthVsJupiter (6371.2d, 71492.0d));
+        System.out.println(sphereSquare (1.00));
+        System.out.println(earthSquare (6371.20));
+        System.out.println(mercurySquare(2439.70));
+        System.out.println(jupiterSquare (71492.00));
+        System.out.println(earthVsMercury( 6371.20, 2439.70));
+        System.out.println(earthVsJupiter (6371.20, 71492.00));
     }
     public static Double sphereSquare (double r){
         double p = 3.14d;
