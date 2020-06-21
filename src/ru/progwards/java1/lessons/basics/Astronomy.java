@@ -11,22 +11,22 @@ public class Astronomy {
     }
     public static Double sphereSquare (Double r){
         double p = 3.14d;
-        double S = 4*p*r*r;
+        double S = 4.0*p*r*r;
         return S;
     }
     public static Double earthSquare(Double r1){
         double p = 3.14d;
-        double S1 = 4*p*r1*r1;
+        double S1 = 4.0*p*r1*r1;
         return S1;
     }
     public static Double mercurySquare(Double r2){
         double p = 3.14d;
-        double S2 = 4*p*r2*r2;
+        double S2 = 4.0*p*r2*r2;
         return S2;
     }
     public static Double jupiterSquare (Double r3){
         double p = 3.14d;
-        double S3 = 4*p*r3*r3;
+        double S3 = 4.0*p*r3*r3;
         return S3;
     }
     public static Double earthVsMercury (Double r1, Double r2){
