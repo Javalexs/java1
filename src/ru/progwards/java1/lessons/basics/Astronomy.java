@@ -9,7 +9,7 @@ public class Astronomy {
         System.out.println(earthVsMercury( 6371.2d, 2439.7d));
         System.out.println(earthVsJupiter (6371.2d, 71492.0d));
     }
-    public static Double sphereSquare (Double r){
+    public static Double sphereSquare (double r){
         double p = 3.14d;
         double S = 4.0*p*r*r;
         return S;
