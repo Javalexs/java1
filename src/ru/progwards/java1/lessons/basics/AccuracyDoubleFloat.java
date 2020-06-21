@@ -2,14 +2,14 @@ package ru.progwards.java1.lessons.basics;
 
 public class AccuracyDoubleFloat {
     public static void main(String[] args) {
-        System.out.println (volumeBallDouble(6371.2));
+        System.out.println (volumeBallDouble(6371.2d));
         System.out.println (volumeBallFloat (6371.2f));
         System.out.println (calculateAccuracy (10));
 
     }
     public static double volumeBallDouble(double radius){
-        double p = 3.14;
-        double V = 4/3*p*radius*radius*radius;
+        double p = 3.14d;
+        double V = 4d/3d*p*radius*radius*radius;
         return V;
     }
     public static float volumeBallFloat(float radius){
