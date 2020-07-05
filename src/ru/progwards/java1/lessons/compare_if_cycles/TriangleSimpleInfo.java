@@ -1,23 +1,50 @@
 package ru.progwards.java1.lessons.compare_if_cycles;
 
 public class TriangleSimpleInfo {
-    public static int main(String[] args) {
-        System.out.println (3, 4, 5);
-
+    public static void main(String[] args) {
+//        int m;
+        System.out.println(maxSide(2, 5, 2));
+        System.out.println(minSide(4, 6, 7));
+        System.out.println(isEquilateralTriangle()
+    }
         public static int maxSide(int a, int b, int c){
-
-            if (a > b > c) {
-                return a;
+            int m;
+            if (a > b) {
+                m = a;
+            } else {
+                m = b;
             }
-            else if (a < b < c){
+            if (m > c) {
+                return m;
+            } else {
                 return c;
             }
-            else{
-                return b;
-            }
-
-
-
         }
-    }
+        public static int minSide(int a, int b, int c){
+            int m;
+            if (a < b) {
+                m = a;
+            } else {
+                m = b;
+            }
+            if (m < c) {
+                return m;
+            } else {
+                return c;
+            }
+        }
+        public static boolean isEquilateralTriangle(int a, int b, int c){
+            int m;
+            boolean m = a == b & b == c &
+                m = a;
+            } else {
+                m = b;
+            }
+            if (m = c) {
+                return m;
+            } else {
+                return c;
+            }
+        }
 }
+
