@@ -5,7 +5,8 @@ public class TriangleSimpleInfo {
 //        int m;
         System.out.println(maxSide(2, 5, 2));
         System.out.println(minSide(4, 6, 7));
-        System.out.println(isEquilateralTriangle()
+        System.out.println(isEquilateralTriangle(4,4,4));
+
     }
         public static int maxSide(int a, int b, int c){
             int m;
@@ -34,16 +35,10 @@ public class TriangleSimpleInfo {
             }
         }
         public static boolean isEquilateralTriangle(int a, int b, int c){
-            int m;
-            boolean m = a == b & b == c &
-                m = a;
+            if (a==b && a==c && b==c){
+                return true;
             } else {
-                m = b;
-            }
-            if (m = c) {
-                return m;
-            } else {
-                return c;
+                return false;
             }
         }
 }
