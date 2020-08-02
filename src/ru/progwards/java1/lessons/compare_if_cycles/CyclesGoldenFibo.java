@@ -18,7 +18,7 @@ public class CyclesGoldenFibo {
         System.out.println(fiboNumber(14));
         System.out.println(fiboNumber(15));
 
-        for (int i = 1; i < 100; i++) {    // Цикл поиска золотых треугольников
+        for (int i = 1; i < 100; i++) {
             for (int j = 1; j <= i; j++)
                 if (isGoldenTriangle (i,i,j)){
                     System.out.println("Найден золотой треугольник с параметрами: " + i + ", " + i + ", " + j);
@@ -27,9 +27,9 @@ public class CyclesGoldenFibo {
         }
     }
 
-    //public static boolean containsDigit(int number, int digit){
+    public static boolean containsDigit(int number, int digit){
 
-    //}
+    }
 
     public static int fiboNumber (int n) {
         int x = 0;
