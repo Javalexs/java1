@@ -48,8 +48,9 @@ public class CyclesGoldenFibo {
        if (a == b || b == c || a == c && a/c >= 1.61703 && a/c <= 1.61903 || b/c >= 1.61703 && b/c <= 1.61903){
             return true;
         } else {
-            return false;
+
         }
+        return false;
     }
 
 }
