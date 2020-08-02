@@ -18,12 +18,12 @@ public class CyclesGoldenFibo {
         System.out.println(fiboNumber(14));
         System.out.println(fiboNumber(15));
 
-        for (int i = 1; i < 100; i++) {
-            for (int j = 1; j < i; j++) {
-//                for (int c = 1; c < b; c++) {
-//                    if ()
-                    System.out.println(isGoldenTriangle(3, 3, 4));
-
+        for (int a = 1; a < 101; a++) {
+            for (int b = 1; b < a; b++) {
+                for (int c = 1; c < b; c++) {
+                    System.out.println(isGoldenTriangle(a, b, c));
+//                    System.out.println ()
+                }
             }
         }
     }
@@ -32,7 +32,7 @@ public class CyclesGoldenFibo {
 
     //}
 
-    public static int fiboNumber(int n) {
+    public static int fiboNumber (int n) {
         int x = 0;
         int x1 = 1;
         int x2 = 0;
