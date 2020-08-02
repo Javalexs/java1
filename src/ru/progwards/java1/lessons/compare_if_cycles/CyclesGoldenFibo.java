@@ -18,12 +18,11 @@ public class CyclesGoldenFibo {
         System.out.println(fiboNumber(14));
         System.out.println(fiboNumber(15));
 
-        for (int a = 1; a < 101; a++) {
-            for (int b = 1; b < a; b++) {
-                for (int c = 1; c < b; c++) {
-                    System.out.println(isGoldenTriangle(a, b, c));
-//                    System.out.println ()
-                }
+        for (int i = 1; i < 100; i++) {    // Цикл поиска золотых треугольников
+            for (int j = 1; j <= i; j++)
+                if (isGoldenTriangle (i,i,j)){
+                    System.out.println("Найден золотой треугольник с параметрами: " + i + ", " + i + ", " + j);
+
             }
         }
     }
