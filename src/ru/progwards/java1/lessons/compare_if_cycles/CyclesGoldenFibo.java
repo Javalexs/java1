@@ -39,9 +39,9 @@ public class CyclesGoldenFibo {
         if(a == b & (double)a/c >= 1.61703d & (double)a/c <= 1.61903d | a == c & (double)a/b  >= 1.61703d & (double)a/b  <= 1.61903d | b == c & (double)b/a  >= 1.61703d & (double)b/a  <= 1.61903d){
             return true;
         } else {
-
+            return false;
         }
-        return false;
+
     }
 
 }
