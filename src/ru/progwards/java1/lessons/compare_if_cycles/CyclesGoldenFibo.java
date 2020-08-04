@@ -1,9 +1,9 @@
 package ru.progwards.java1.lessons.compare_if_cycles;
 
 public class CyclesGoldenFibo {
-//    public static boolean containsDigit(int number, int digit) {
+    public static boolean containsDigit(int number, int digit) {
 //        for
-//    }
+    }
 
     public static void main(String[] args) {
         for(int n = 1; n < 16; n++){
