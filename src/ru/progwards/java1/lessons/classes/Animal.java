@@ -3,8 +3,9 @@ package ru.progwards.java1.lessons.classes;
 import jdk.swing.interop.SwingInterOpUtils;
 
 public class Animal {
+
     double weight;
-    Animal animal;
+    
     enum AnimalKind{
         ANIMAL,COW,HAMSTER,DUCK};
     enum FoodKind {
@@ -12,11 +13,17 @@ public class Animal {
 
 
     public static void main(String[] args) {
-        System.out.println(AnimalKind.);
+
     }
+    public static void printInfo(Animal Cow){
+        System.out.println(Animal.COW);
+
+    }
+}
 
         public Animal(double weight){
-            this.weight = weight;
+
+        this.weight = weight;
         }
 
         public AnimalKind getKind(){
@@ -26,7 +33,7 @@ public class Animal {
             return FoodKind.UNKNOWN;
         }
         public String toString(){
-            return "I am" + AnimalKind.ANIMAL + ", eat" + FoodKind.UNKNOWN;
+            return "I am" + getKind() + "," + "eat" + getFoodKind();
 
         }
 
@@ -41,11 +48,6 @@ public class Animal {
         @Override
         public FoodKind getFoodKind() {
             return FoodKind.HAY;
-        }
-        @Override
-        public String toString() {
-            return "I am" + AnimalKind.COW + "," + "eat" + FoodKind.HAY;
-        }
     }
     public class Hamster extends Animal{
         public Hamster(double weight) {
@@ -59,13 +61,8 @@ public class Animal {
         public FoodKind getFoodKind() {
             return FoodKind.CORN;
         }
-        @Override
-        public String toString() {
-            return "I am" + AnimalKind.HAMSTER + "," + "eat" + FoodKind.CORN;
-        }
     }
     public class DUCK extends Animal{
-
         public DUCK(double weight) {
             super(weight);
         }
@@ -76,10 +73,6 @@ public class Animal {
         @Override
         public FoodKind getFoodKind() {
             return FoodKind.CORN;
-        }
-        @Override
-        public String toString() {
-            return "I am" + AnimalKind.DUCK + "," + "eat" + FoodKind.CORN;
         }
     }
 
