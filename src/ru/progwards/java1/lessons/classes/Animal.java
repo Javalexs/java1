@@ -4,6 +4,7 @@ import jdk.swing.interop.SwingInterOpUtils;
 
 public class Animal {
 
+
     double weight;
     
     enum AnimalKind{
@@ -13,13 +14,12 @@ public class Animal {
 
 
     public static void main(String[] args) {
+        Cow cow = new Cow(100);
+        System.out.println(cow);
 
     }
-    public static void printInfo(Animal Cow){
-        System.out.println(Animal.COW);
 
-    }
-}
+
 
         public Animal(double weight){
 
@@ -33,21 +33,24 @@ public class Animal {
             return FoodKind.UNKNOWN;
         }
         public String toString(){
-            return "I am" + getKind() + "," + "eat" + getFoodKind();
+            return "I am " + getKind() + ", eat " + getFoodKind();
 
         }
 
-    public class Cow extends Animal{
+    public static class Cow extends Animal {
         public Cow(double weight) {
             super(weight);
         }
+
         @Override
         public AnimalKind getKind() {
             return AnimalKind.COW;
         }
+
         @Override
         public FoodKind getFoodKind() {
             return FoodKind.HAY;
+        }
     }
     public class Hamster extends Animal{
         public Hamster(double weight) {
@@ -75,12 +78,5 @@ public class Animal {
             return FoodKind.CORN;
         }
     }
-
-
-
-
-
-
-
 
 }
