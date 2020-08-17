@@ -1,7 +1,5 @@
 package ru.progwards.java1.lessons.classes;
 
-import jdk.swing.interop.SwingInterOpUtils;
-
 public class Animal {
 
 
@@ -16,7 +14,10 @@ public class Animal {
     public static void main(String[] args) {
         Cow cow = new Cow(100);
         System.out.println(cow);
-
+        Hamster hamster = new Hamster(2);
+        System.out.println(hamster);
+        DUCK duck = new DUCK(9);
+        System.out.println(duck);
     }
 
 
@@ -52,7 +53,7 @@ public class Animal {
             return FoodKind.HAY;
         }
     }
-    public class Hamster extends Animal{
+    public static class Hamster extends Animal{
         public Hamster(double weight) {
             super(weight);
         }
@@ -65,10 +66,13 @@ public class Animal {
             return FoodKind.CORN;
         }
     }
-    public class DUCK extends Animal{
+    public static class DUCK extends Animal{
+
+
         public DUCK(double weight) {
             super(weight);
         }
+
         @Override
         public AnimalKind getKind() {
             return AnimalKind.DUCK;
