@@ -12,6 +12,8 @@ public class Animal {
 
 
     public static void main(String[] args) {
+        Animal animal = new Animal(45);
+        System.out.println(animal);
         Cow cow = new Cow(100);
         System.out.println(cow);
         Hamster hamster = new Hamster(2);
