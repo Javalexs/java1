@@ -26,6 +26,9 @@ public class Animal {
 
         this.weight = weight;
         }
+        public double getWeight(){
+            return weight;
+        }
 
         public AnimalKind getKind(){
             return AnimalKind.ANIMAL;
