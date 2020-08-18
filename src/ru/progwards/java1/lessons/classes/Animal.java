@@ -12,7 +12,7 @@ public class Animal {
         System.out.println(cow);
         Hamster hamster = new Hamster(2);
         System.out.println(hamster);
-        DUCK duck = new DUCK(9);
+        Duck duck = new Duck(9);
         System.out.println(duck);
     }
 
@@ -31,8 +31,17 @@ public class Animal {
     public FoodKind getFoodKind() {
         return FoodKind.UNKNOWN;
     }
+
+    public double getFoodCoeff(){
+        return 0.02;
+    }
+    public double calculateFoodWeight(){
+        double calculateFoodWeight = weight * getFoodCoeff();
+        return calculateFoodWeight;
+    }
+
     public String toString() {
-        return "I am " + getKind() + ", eat " + getFoodKind();
+        return "I am " + getKind() + ", eat " + double calculateFoodWeight;
     }
 }
 

@@ -15,5 +15,4 @@ public class Cow extends Animal {
             return FoodKind.HAY;
         }
 
-
 }
