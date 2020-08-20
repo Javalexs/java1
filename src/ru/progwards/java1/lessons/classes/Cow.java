@@ -25,11 +25,11 @@ public class Cow extends Animal {
 
         @Override
         public double getFoodCoeff() {
-            return H;
+            return 0.05;
         }
 
         @Override
         public double calculateFoodWeight(){
-            return weight * H;
+            return weight * 0.05;
         }
 }
