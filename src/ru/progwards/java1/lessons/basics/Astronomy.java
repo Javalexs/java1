@@ -21,6 +21,7 @@ public class Astronomy {
         return S;
     }
     public static Double earthSquare(){
+
         return sphereSquare(6371.2);
     }
     public static Double mercurySquare(){
