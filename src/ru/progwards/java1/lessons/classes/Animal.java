@@ -3,14 +3,14 @@ package ru.progwards.java1.lessons.classes;
 public class Animal {
 
     double weight;
-    double H;
+
 
     enum AnimalKind {ANIMAL, COW, HAMSTER, DUCK};
     enum FoodKind {UNKNOWN, HAY, CORN};
 
     public static void main(String[] args) {
         Animal animal = new Animal(30.0);
-        System.out.println(animal.calculateFoodWeight());
+        System.out.println(calculateFoodWeight());
 //        Cow cow = new Cow (31.9, 34,6)
 //        System.out.println(cow.toStringFull());
 //        Hamster hamster = new Hamster(2.9, 0.03);
@@ -22,7 +22,6 @@ public class Animal {
 
     public Animal(double weight) {
         this.weight = weight;
-    }
 
     }
     public double getWeight() {

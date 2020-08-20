@@ -24,11 +24,11 @@ public class Duck extends Animal{
 
     @Override
     public double getFoodCoeff() {
-        return 0.03;
+        return 0.04;
     }
 
     @Override
     public double calculateFoodWeight(){
-        return weight * H;
+        return getWeight() * getFoodCoeff();
     }
 }

@@ -4,9 +4,7 @@ public class Hamster extends Animal{
     public Hamster(double weight) {
         super(weight);
         }
-    public Hamster(double weight, double H ) {
-        super(weight,H);
-    }
+
 
         @Override
         public AnimalKind getKind() {
@@ -24,12 +22,12 @@ public class Hamster extends Animal{
 
         @Override
         public double getFoodCoeff() {
-            return H;
+            return 0.03;
         }
 
         @Override
         public double calculateFoodWeight(){
-            return weight * H;
+            return getWeight() * getFoodCoeff();
         }
 
 }
