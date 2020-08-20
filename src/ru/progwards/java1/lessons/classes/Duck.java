@@ -28,8 +28,7 @@ public class Duck extends Animal{
     }
 
     @Override
-    public double calculateFoodWeight(double weight, double H){
+    public double calculateFoodWeight(){
         return weight * H;
     }
-
 }

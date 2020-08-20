@@ -29,12 +29,7 @@ public class Cow extends Animal {
         }
 
         @Override
-        public double calculateFoodWeight(double weight, double H){
+        public double calculateFoodWeight(){
             return weight * H;
         }
-
-
-
-
-
 }

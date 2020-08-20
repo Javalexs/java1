@@ -1,6 +1,7 @@
 package ru.progwards.java1.lessons.classes;
 
 public class Animal {
+
     double weight;
     double H;
 
@@ -8,40 +9,35 @@ public class Animal {
     enum FoodKind {UNKNOWN, HAY, CORN};
 
     public static void main(String[] args) {
-        Animal animal = new Animal(30.0);
-        System.out.print(animal);
-        System.out.println(animal.calculateFoodWeight(3.4,0.02));
-        Cow cow = new Cow(31.0);
-        System.out.print(cow);
-        System.out.println(animal.calculateFoodWeight(3.4,0.05));
-        Hamster hamster = new Hamster(2.9);
-        System.out.print(hamster);
-        System.out.println(animal.calculateFoodWeight(3.4,0.03));
-        Duck duck = new Duck(9.0);
-        System.out.print(duck);
-        System.out.println(animal.calculateFoodWeight(3.4,0.04));
+        Animal animal = new Animal(30.0, 0.02);
+        System.out.println(animal.toStringFull());
+        Cow cow = new Cow(31.0, 0.05);
+        System.out.println(cow.toStringFull());
+        Hamster hamster = new Hamster(2.9, 0.03);
+        System.out.println(hamster.toStringFull());
+        Duck duck = new Duck(9.0, 0.04);
+        System.out.println(duck.toStringFull());
 
     }
 
     public Animal(double weight) {
         this.weight = weight;
-
     }
     public Animal(double weight, double H){
         this.weight = weight;
         this.H = H;
-
     }
-
     public double getWeight() {
         return weight;
     }
     public double getFoodCoeff() {
         return H;
     }
-    public double calculateFoodWeight(double weight, double H){
+    public double calculateFoodWeight(){
         return weight * H;
     }
+
+
 
     public AnimalKind getKind() {
         return AnimalKind.ANIMAL;
@@ -55,7 +51,7 @@ public class Animal {
         return "I am " + getKind() + ", eat " + getFoodKind();
     }
     public String toStringFull() {
-        return "I am " + getKind() + ", eat " + getFoodKind() + " " + calculateFoodWeight(weight,H);
+        return "I am " + getKind() + ", eat " + getFoodKind() + " " + calculateFoodWeight();
     }
 }
 
