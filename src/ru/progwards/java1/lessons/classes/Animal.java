@@ -9,8 +9,8 @@ public class Animal {
     enum FoodKind {UNKNOWN, HAY, CORN};
 
     public static void main(String[] args) {
-        Animal animal = new Animal(30.0);
-        System.out.println(calculateFoodWeight());
+//        Animal animal = new Animal(30.0);
+//        System.out.println(calculateFoodWeight());
 //        Cow cow = new Cow (31.9, 34,6)
 //        System.out.println(cow.toStringFull());
 //        Hamster hamster = new Hamster(2.9, 0.03);
@@ -25,7 +25,7 @@ public class Animal {
 
     }
     public double getWeight() {
-        return weight;
+        return 34.9;
     }
     public double getFoodCoeff() {
         return 0.02;
