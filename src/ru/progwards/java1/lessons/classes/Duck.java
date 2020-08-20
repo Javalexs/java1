@@ -4,9 +4,6 @@ public class Duck extends Animal{
     public Duck(double weight) {
          super(weight);
     }
-    public Duck(double weight, double H) {
-        super(weight,H);
-    }
 
     @Override
     public AnimalKind getKind() {

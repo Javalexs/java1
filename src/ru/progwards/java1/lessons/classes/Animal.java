@@ -22,8 +22,8 @@ public class Animal {
 
     public Animal(double weight) {
         this.weight = weight;
-
     }
+
     public double getWeight() {
         return 34.9;
     }
@@ -44,6 +44,7 @@ public class Animal {
 
     public String toString() {
         return "I am " + getKind() + ", eat " + getFoodKind();
+
     }
     public String toStringFull() {
         return "I am " + getKind() + ", eat " + getFoodKind() + " " + calculateFoodWeight();
