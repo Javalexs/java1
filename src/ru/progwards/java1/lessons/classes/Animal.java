@@ -14,10 +14,10 @@ public class Animal {
         Cow cow = new Cow(31.0);
         System.out.print(cow);
         System.out.println(animal.calculateFoodWeight(3.4,0.05));
-        Hamster hamster = new Hamster(2);
+        Hamster hamster = new Hamster(2.9);
         System.out.print(hamster);
         System.out.println(animal.calculateFoodWeight(3.4,0.03));
-        Duck duck = new Duck(9);
+        Duck duck = new Duck(9.0);
         System.out.print(duck);
         System.out.println(animal.calculateFoodWeight(3.4,0.04));
 
