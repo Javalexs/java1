@@ -9,14 +9,12 @@ public class ComplexNum {
         this.b = b;
         ComplexNum num = new ComplexNum(a,b);
 
+
     }
 
     public String toString(){
 
     }
 
-
-
-    }
 
 }
