@@ -12,9 +12,5 @@ public class ComplexNum {
 
     }
 
-    public String toString(){
-
-    }
-
 
 }
