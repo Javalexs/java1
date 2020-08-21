@@ -4,4 +4,19 @@ public class ComplexNum {
     int a;
     int b;
 
+    public ComplexNum(int a, int b){
+        this.a = a;
+        this.b = b;
+        ComplexNum num = new ComplexNum(a,b);
+
+    }
+
+    public String toString(){
+
+    }
+
+
+
+    }
+
 }
