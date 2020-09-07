@@ -26,10 +26,10 @@ import java.util.Arrays;
 
     public boolean isSimple(int n){
         if (n == 0){
-            return true;
+            return false;
         }
         else {
-            return false;
+            return true;
         }
     }
 
