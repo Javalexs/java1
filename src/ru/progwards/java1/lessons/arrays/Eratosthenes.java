@@ -25,7 +25,7 @@ public class Eratosthenes {
     }
 
     public boolean isSimple(int n){
-        return true;
+        return false;
 
     }
 
