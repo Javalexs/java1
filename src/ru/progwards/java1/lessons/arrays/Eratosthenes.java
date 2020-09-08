@@ -25,16 +25,10 @@ public class Eratosthenes {
     }
 
     public boolean isSimple(int n){
-        if (n == 0){
-            return false;
-        }
         return true;
 
     }
 
     public static void main(String[] args) {
-//        System.out.println(Arrays.toString(sieve));
-
-
     }
 }
