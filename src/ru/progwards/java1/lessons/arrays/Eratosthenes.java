@@ -19,9 +19,8 @@ public class Eratosthenes {
         sieve[1] = false;
         for (int i = 2; i * i < N; i++)
             if (sieve[i])
-                for (int j = i * i; j < N; j++)
+                for (int j = i; j * i < N; j++)
                     sieve[j] = false;
-
     }
 
     public boolean isSimple(int n){
