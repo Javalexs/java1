@@ -34,6 +34,8 @@ import java.util.Arrays;
     }
 
      public static void main(String[] args) {
+         Eratosthenes era = new Eratosthenes (6);
+         System.out.println(era);
 
      }
  }
