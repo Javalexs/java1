@@ -17,9 +17,9 @@ import java.util.Arrays;
 
     private void sift() {
         sieve[1] = true;
-        for (int i = 2; i * i < N; i++)
+        for (int i = 2; i < N - 1; i++)
             if (sieve[i])
-                for (int j = 2; j < sieve.length; j++) {
+                for (int j = 2; sieve.length < i * j; j++) {
                     sieve[j] = false;
                 }
     }
@@ -34,8 +34,8 @@ import java.util.Arrays;
     }
 
      public static void main(String[] args) {
-         Eratosthenes era = new Eratosthenes (6);
-         System.out.println(era);
+//         Eratosthenes era = new Eratosthenes (6);
+//         System.out.println(era);
 
      }
  }
