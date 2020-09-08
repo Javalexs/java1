@@ -19,7 +19,7 @@ public class Eratosthenes {
         sieve[1] = false;
         for (int i = 2; i * i < N; i++)
             if (sieve[i])
-                for (int j = i; j * i < N; j++)
+                for (int j = i*i; j < N; j += i)
                     sieve[j] = false;
     }
 
