@@ -3,8 +3,10 @@ package ru.progwards.java1.lessons.arrays;
 import java.util.Arrays;
 
  public class DIntArray {
-
      private int[] a;
+     public static void main(String[] args) {
+
+     }
 
      public DIntArray() {
 
@@ -30,8 +32,6 @@ import java.util.Arrays;
             }
 
         }
-     public static void main(String[] args) {
 
-     }
 
  }
