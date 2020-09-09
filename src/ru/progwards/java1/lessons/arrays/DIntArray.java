@@ -4,8 +4,11 @@ import java.util.Arrays;
 
  public class DIntArray {
 
-        private int[] a;
-        public DIntArray(){
+     private int[] a;
+
+     public DIntArray() {
+
+     }
 
             public void add(int num){
                 a = Arrays.copyOf(a, a.length + 1);
