@@ -27,7 +27,7 @@ import java.util.Arrays;
 
             }
             public int at(int pos){
-                return num;
+                return a[pos];
 
             }
 
