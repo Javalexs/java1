@@ -18,7 +18,7 @@ import java.util.Arrays;
                 int[] b = new int [a.length + 1];
                 System.arraycopy(a,0,b,0, a.length + 1);
                 /* a = Arrays.copyOf(a, 0, b, a.length + 1); */
-                a[a.length - 1] = num;
+//                a[a.length - 1] = num;
             }
             public void atInsert(int pos, int num){
                 a = Arrays.copyOf(a, a.length + 1);
