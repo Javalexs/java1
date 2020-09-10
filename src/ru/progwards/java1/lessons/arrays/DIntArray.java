@@ -4,39 +4,26 @@ import java.util.Arrays;
 
  public class DIntArray {
      private int[] a;
-
-
      public static void main(String[] args) {
-
      }
-
      public DIntArray() {
-
-
-         a = new int[a.length];
      }
-
             public void add(int num){
                 a = new int[a.length];
                 int[] b = new int [a.length + 1];
-                System.arraycopy(a,0,b,0, a.length + 1);
-                /* a = Arrays.copyOf(a, 0, b, a.length + 1); */
-                a[a.length - 1] = num;
+                System.arraycopy(a,0, b ,0, a.length + num);
+//                a[a.length - 1] = num;
             }
             public void atInsert(int pos, int num){
                 a = Arrays.copyOf(a, a.length + 1);
                 int [] a1 = new int [a.length];
                 System.arraycopy(a, 1, a1, pos + 1, a.length);
                 a[pos] = num;
-
             }
             public void atDelete(int pos){
                 a = Arrays.copyOf(a, a.length - 1);
-
             }
             public int at(int pos){
                 return a[pos];
-
             }
-
  }
