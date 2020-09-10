@@ -5,6 +5,7 @@ import java.util.Arrays;
  public class DIntArray {
      private int[] a;
 
+
      public static void main(String[] args) {
 
      }
@@ -14,7 +15,8 @@ import java.util.Arrays;
      }
 
             public void add(int num){
-                a = new int[a.length];
+//                int [] b;
+                a = new int[0];
                 int[] b = new int [a.length + 1];
                 System.arraycopy(a,0,b,0, a.length + 1);
                 /* a = Arrays.copyOf(a, 0, b, a.length + 1); */
