@@ -15,7 +15,7 @@ import java.util.Arrays;
      }
 
             public void add(int num){
-                a = new int[0];
+                a = new int[1];
                 int[] b = new int [a.length + 1];
                 System.arraycopy(a,0,b,0, a.length + 1);
                 /* a = Arrays.copyOf(a, 0, b, a.length + 1); */
