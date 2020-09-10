@@ -9,7 +9,7 @@ import java.util.Arrays;
      public DIntArray() {
      }
             public void add(int num){
-                a = new int[num];
+                a = new int[1];
                 int[] b = Arrays.copyOf(a, a.length + 1);
                 a[a.length - 1] = num;
 
