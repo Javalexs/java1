@@ -14,7 +14,7 @@ public class ArraySort {
                   if (a[i] > a[j]) {
                       int b = a [i];
                       a[i] = a[j];
-                      a[j] = int b;
+                      a[j] = b;
 
 
                   }
