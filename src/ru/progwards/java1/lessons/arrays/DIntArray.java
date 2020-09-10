@@ -4,6 +4,7 @@ import java.util.Arrays;
 
  public class DIntArray {
      private int[] a;
+
      public static void main(String[] args) {
 
      }
@@ -18,7 +19,8 @@ import java.util.Arrays;
             }
             public void atInsert(int pos, int num){
                 a = Arrays.copyOf(a, a.length + 1);
-//                a[a.length] = num;
+                int [] a1 = new int [a.length];
+                System.arraycopy(a, 1, a1, pos + 1, a.length);
                 a[pos] = num;
 
             }
