@@ -11,12 +11,13 @@ import java.util.Arrays;
      }
 
      public DIntArray() {
-         a = new int[a.length];
 
+
+         a = new int[a.length];
      }
 
             public void add(int num){
-
+                a = new int[a.length];
                 int[] b = new int [a.length + 1];
                 System.arraycopy(a,0,b,0, a.length + 1);
                 /* a = Arrays.copyOf(a, 0, b, a.length + 1); */
