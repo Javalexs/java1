@@ -23,6 +23,6 @@ import java.util.Arrays;
 
             }
             public int at(int pos){
-                return a[pos];
+
             }
  }
