@@ -23,7 +23,7 @@ import java.util.Arrays;
 
             }
             public int at(int pos){
-                return pos;
+                return pos - 2;
 
             }
  }
