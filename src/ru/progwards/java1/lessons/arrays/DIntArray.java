@@ -6,8 +6,8 @@ import java.util.Arrays;
      private int[] a = new int[0];
 
      public static void main(String[] args) {
-         DIntArray arr = new DIntArray();
-         arr.atDelete(1);
+//         DIntArray arr = new DIntArray();
+//         arr.atDelete(1);
 //
      }
 
