@@ -19,8 +19,8 @@ import java.util.Arrays;
             public void atInsert(int pos, int num){
                 a = new int[1];
                 int[] b = new int[a.length + 1];
-                System.arraycopy(a, num, b,num+1, a.length + 1);
-//                b[a.length - 1] = num;
+                System.arraycopy(a, pos, b,pos + 1, a.length + 1);
+                b[a.length] = num;
 
 
             }
