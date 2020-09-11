@@ -3,11 +3,11 @@ package ru.progwards.java1.lessons.arrays;
 import java.util.Arrays;
 
  public class DIntArray {
-     private int[] a = new int[1];
+     private int[] a = new int[0];
 
      public static void main(String[] args) {
-         DIntArray arr = new DIntArray();
-         arr.atDelete(1);
+//         DIntArray arr = new DIntArray();
+//         arr.add(0);
      }
 
 
@@ -16,7 +16,7 @@ import java.util.Arrays;
             public void add(int num){
 
                 int[] b = new int[a.length + 1];
-                System.arraycopy(a, 0, b,0, a.length+1);
+                System.arraycopy(a, 0, b,0, a.length);
                 b[a.length] = num;
             }
             public void atInsert(int pos, int num){
