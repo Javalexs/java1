@@ -10,7 +10,8 @@ import java.util.Arrays;
      public DIntArray() {
      }
             public void add(int num){
-                a = new int[1];
+
+                a = new int[0];
                 int[] b = new int[a.length + 1];
                 System.arraycopy(a, 0, b, 1, a.length);
                 b[a.length - 1] = num;
@@ -28,7 +29,7 @@ import java.util.Arrays;
 
             }
             public int at(int pos){
-                return a[pos];
+                return [a.length];
 
             }
  }
