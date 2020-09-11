@@ -10,11 +10,11 @@ import java.util.Arrays;
      public DIntArray() {
      }
             public void add(int num){
-                a = new int[1];
+                a = new int[a.length];
 //                b = Arrays.copyOf(a, a.length + 1);
-                b = new int[a.length + 1];
-                System.arraycopy(a, 1, b,1,1);
-                a[a.length - 1] = num;
+                int[] b = new int[a.length + 1];
+                System.arraycopy(a, 0, b,0,a.length + 1);
+                b[a.length - 1] = num;
 
             }
             public void atInsert(int pos, int num){
@@ -24,7 +24,7 @@ import java.util.Arrays;
 
             }
             public int at(int pos){
-                return a[pos-1];
+                return a[pos];
 
             }
  }
