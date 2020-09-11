@@ -4,16 +4,15 @@ import java.util.Arrays;
 
  public class DIntArray {
      private int[] a;
-     private int[] b;
+//     private int[] b;
      public static void main(String[] args) {
      }
      public DIntArray() {
      }
             public void add(int num){
                 a = new int[a.length];
-//                b = Arrays.copyOf(a, a.length + 1);
                 int[] b = new int[a.length + 1];
-                System.arraycopy(a, 0, b,0,a.length + 1);
+                System.arraycopy(a, 0, b,0, a.length);
                 b[a.length - 1] = num;
 
             }
