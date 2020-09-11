@@ -12,7 +12,7 @@ import java.util.Arrays;
             public void add(int num){
                 a = new int[1];
                 int[] b = new int[a.length + 1];
-                System.arraycopy(a, 0, b, a.length, a.length + 1);
+                System.arraycopy(a, 0, b, 1, a.length + 1);
                 b[a.length - 1] = num;
 
             }
