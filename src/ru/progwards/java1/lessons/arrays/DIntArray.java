@@ -10,13 +10,11 @@ import java.util.Arrays;
      public DIntArray() {
      }
             public void add(int num){
-
-                a = new int[0];
-                int[] b = new int[a.length];
-                System.arraycopy(a, 0, b, 0, b.length + 1);
-                b[b.length] = num;
-
-            }
+                a = new int[a.length];
+                int[] b = new int[a.length + num];
+                System.arraycopy(a, 0, b,0, a.length + 1);
+                b[a.length] = num;
+     }
             public void atInsert(int pos, int num){
                 a = new int[a.length];
                 int[] b = new int[a.length + 1];
