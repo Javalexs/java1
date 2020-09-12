@@ -22,7 +22,7 @@ import java.util.Arrays;
             public void atInsert(int pos, int num){
                 int[] b = new int[a.length + 1];
                 System.arraycopy(a, 0, b,pos, a.length);
-                b[a.length] = num;
+                b[pos-1] = num;
                 a = b;
             }
             public void atDelete(int pos){
