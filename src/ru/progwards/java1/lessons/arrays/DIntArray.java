@@ -3,7 +3,7 @@ package ru.progwards.java1.lessons.arrays;
 import java.util.Arrays;
 
  public class DIntArray {
-     int[] a = new int[100];
+     int[] a = new int[0];
 
      public static void main(String[] args) {
          DIntArray arr = new DIntArray();
@@ -18,6 +18,8 @@ import java.util.Arrays;
                 int[] b = new int[a.length + 1];
                 System.arraycopy(a, 0, b, 0, a.length);
                 b[a.length] = num;
+                a = b;
+
             }
             public void atInsert(int pos, int num){
 
