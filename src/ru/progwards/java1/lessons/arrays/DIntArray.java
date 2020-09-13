@@ -7,8 +7,8 @@ import java.util.Arrays;
 
      public static void main(String[] args) {
          DIntArray arr = new DIntArray();
-         arr.atInsert(1,1);
-//
+         arr.atInsert(1, 1);
+
      }
 
      public DIntArray() {
@@ -23,7 +23,7 @@ import java.util.Arrays;
                 int[] b = new int[a.length + 1];
                 System.arraycopy(a, 0, b, 0, pos);
                 b[pos - 1] = num;
-                System.arraycopy(a, pos, b, pos, a.length - pos);
+                System.arraycopy(a, pos, b, pos+1, a.length - pos);
                 a = b;
             }
             public void atDelete(int pos){
