@@ -19,10 +19,11 @@ import java.util.Arrays;
                 b[a.length] = num;
                 a = b;
             }
-            public void atInsert(int pos, int num){
+            public void atInsert(int pos, int num) {
                 int[] b = new int[a.length + 1];
-                System.arraycopy(a, 0, b,0, a.length);
+                System.arraycopy(a, 0, b, pos, a.length);
                 b[pos - 1] = num;
+                System.arraycopy(a, pos - 1, b, pos, a.length);
                 a = b;
             }
             public void atDelete(int pos){
