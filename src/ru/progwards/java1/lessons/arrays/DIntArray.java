@@ -1,5 +1,6 @@
 package ru.progwards.java1.lessons.arrays;
 
+
 import java.util.Arrays;
 
  public class DIntArray {
@@ -7,8 +8,7 @@ import java.util.Arrays;
 
      public static void main(String[] args) {
          DIntArray arr = new DIntArray();
-         arr.atInsert(1, 1);
-
+         arr.atInsert(3, 3);
      }
 
      public DIntArray() {
@@ -22,8 +22,8 @@ import java.util.Arrays;
             public void atInsert(int pos, int num) {
                 int[] b = new int[a.length + 1];
                 System.arraycopy(a, 0, b, 0, pos);
-                b[pos - 1] = num;
                 System.arraycopy(a, pos, b, pos+1, a.length - pos);
+                b[pos] = num;
                 a = b;
             }
             public void atDelete(int pos){
