@@ -30,7 +30,6 @@ import java.util.Arrays;
                 int[] b = new int[a.length - 1];
                 System.arraycopy(a, 0, b, 0, pos);
                 System.arraycopy(a, pos - 1, b, pos, a.length - pos);
-                b[pos] = 0;
                 a = b;
 
             }
