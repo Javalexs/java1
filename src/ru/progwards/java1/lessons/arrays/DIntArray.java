@@ -27,8 +27,8 @@ import java.util.Arrays;
                 a = b;
             }
             public void atDelete(int pos){
-                int[] b = new int[a.length - 1];
-                System.arraycopy(a, 0, b, 0, a.length - pos);
+                int[] b = new int[a.length];
+                System.arraycopy(a, 0, b, 0, a.length);
 //                System.arraycopy(a, pos, b, pos-1, a.length - pos);
                 a = b;
 
