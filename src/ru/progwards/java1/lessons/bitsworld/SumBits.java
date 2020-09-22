@@ -5,7 +5,7 @@ public class SumBits {
 //        System.out.println(sumBits(0101010));
     }
     public static int sumBits(byte value){
-        int sm = 0;
+        int sm = value;
         while (value > 0) sm += value >>>= 1 & 1;
         return sm;
 
