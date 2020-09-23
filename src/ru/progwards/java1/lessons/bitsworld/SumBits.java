@@ -6,11 +6,9 @@ public class SumBits {
     }
     public static int sumBits(byte value){
         int sum = 0;
-        for(int i = 1; i < 8; i++) {
-            sum += (value >> 1) & 1;
+        for (int i = 0; i < 8; i++) {
+            sum += (0x1) & (value >> i);
         }
         return sum;
-
-
     }
 }
