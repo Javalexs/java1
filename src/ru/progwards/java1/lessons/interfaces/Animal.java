@@ -10,6 +10,9 @@ public class Animal {
         Animal animal = (Animal) anObject;
         return Double.compare(animal.weight, weight) == 0;
     }
+    public int compareFoodPrice(Animal animal){
+        return Double.compare(this.getFoodPrice(), getFoodPrice());
+    }
 
 
     public enum AnimalKind {ANIMAL, COW, HAMSTER, DUCK};
@@ -29,9 +32,7 @@ public class Animal {
     public double getFoodPrice(){
         return calculateFoodWeight() * getFood1kgPrice();
     }
-    public int compareFoodPrice(Animal animal){
-        return Double.compare(this.weight, animal.weight);
-    }
+
     public Animal(double weight) {
         this.weight = weight;
     }
