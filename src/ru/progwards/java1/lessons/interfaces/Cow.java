@@ -9,6 +9,10 @@ public class Cow extends Animal {
             default: return 0;
         }
     }
+    @Override
+    public int compareFoodPrice(Animal animal){
+        return Double.compare(this.getFoodPrice(), getFoodPrice());
+    }
 
     public Cow(double weight) {
         super(weight);

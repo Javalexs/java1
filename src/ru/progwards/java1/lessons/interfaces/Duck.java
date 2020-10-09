@@ -9,7 +9,10 @@ public class Duck extends Animal {
             default: return 0;
         }
     }
-
+    @Override
+    public int compareFoodPrice(Animal animal){
+        return Double.compare(this.getFoodPrice(), getFoodPrice());
+    }
 
     public Duck(double weight) {
          super(weight);
