@@ -5,7 +5,10 @@ import java.lang.constant.Constable;
 public class Animal {
     double weight;
     public boolean equals(Object anObject){
-
+        if(this == anObject) return true;
+        if(anObject == null || getClass() != anObject.getClass() ) return false;
+        Animal animal = (Animal) anObject;
+        return Double.compare(animal.weight, weight) == 0;
     }
 
 
