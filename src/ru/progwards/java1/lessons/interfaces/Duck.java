@@ -1,6 +1,16 @@
 package ru.progwards.java1.lessons.interfaces;
 
 public class Duck extends Animal {
+    @Override
+    public double getFood1kgPrice(){
+        switch (getFoodKind()) {
+            case HAY: return 20;
+            case CORN: return 50;
+            default: return 0;
+        }
+    }
+
+
     public Duck(double weight) {
          super(weight);
     }
@@ -9,6 +19,7 @@ public class Duck extends Animal {
     public AnimalKind getKind() {
         return AnimalKind.DUCK;
     }
+
     @Override
     public FoodKind getFoodKind() {
         return FoodKind.CORN;

@@ -9,19 +9,15 @@ public class Animal {
     public enum AnimalKind {ANIMAL, COW, HAMSTER, DUCK};
     public enum FoodKind {UNKNOWN, HAY, CORN};
         public double getFood1kgPrice(){
-
-            switch (FoodKind.UNKNOWN) {
+            switch (getFoodKind()) {
                 case HAY: return 20;
                 case CORN: return 50;
-                case UNKNOWN: return 0;
+                default: return 0;
             }
-            return 0;
+
         }
 
     public static void main(String[] args) {
-//        Animal animal = new Animal(30.0);
-//        System.out.println(calculateFoodWeight());
-
     }
 
     public double getFoodPrice(){

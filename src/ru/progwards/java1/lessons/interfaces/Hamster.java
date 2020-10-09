@@ -1,13 +1,18 @@
 package ru.progwards.java1.lessons.interfaces;
 
 public class Hamster extends Animal {
-
+    @Override
+    public double getFood1kgPrice(){
+        switch (getFoodKind()) {
+            case HAY: return 20;
+            case CORN: return 50;
+            default: return 0;
+        }
+    }
 
     public Hamster(double weight) {
         super(weight);
     }
-
-
         @Override
         public AnimalKind getKind() {
             return AnimalKind.HAMSTER;
