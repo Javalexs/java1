@@ -11,7 +11,7 @@ public class Duck extends Animal {
     }
     @Override
     public int compareFoodPrice(Animal animal){
-        return Double.compare(this.getFoodPrice(), getFoodPrice());
+        return Double.compare(this.getFoodPrice(), animal.getFoodPrice());
     }
 
     public Duck(double weight) {
