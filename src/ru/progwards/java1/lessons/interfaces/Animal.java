@@ -1,26 +1,35 @@
-package ru.progwards.java1.lessons.classes;
+package ru.progwards.java1.lessons.interfaces;
+
+import java.lang.constant.Constable;
 
 public class Animal {
-
-
     double weight;
 
 
     public enum AnimalKind {ANIMAL, COW, HAMSTER, DUCK};
     public enum FoodKind {UNKNOWN, HAY, CORN};
+        public double getFood1kgPrice(){
+
+            switch (FoodKind.UNKNOWN) {
+                case HAY: return 20;
+                case CORN: return 50;
+                case UNKNOWN: return 0;
+            }
+            return 0;
+        }
 
     public static void main(String[] args) {
 //        Animal animal = new Animal(30.0);
 //        System.out.println(calculateFoodWeight());
-//        Cow cow = new Cow (31.9, 34,6)
-//        System.out.println(cow.toStringFull());
-//        Hamster hamster = new Hamster(2.9, 0.03);
-//        System.out.println(hamster.toStringFull());
-//        Duck duck = new Duck(9.0, 0.04);
-//        System.out.println(duck.toStringFull());
 
     }
 
+    public double getFoodPrice(){
+        return calculateFoodWeight() * getFood1kgPrice();
+    }
+    public int compareFoodPrice(Animal animal){
+        return Double.compare(this.weight, animal.weight);
+    }
     public Animal(double weight) {
         this.weight = weight;
     }
