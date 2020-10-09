@@ -4,6 +4,9 @@ import java.lang.constant.Constable;
 
 public class Animal {
     double weight;
+    public boolean equals(Object anObject){
+
+    }
 
 
     public enum AnimalKind {ANIMAL, COW, HAMSTER, DUCK};
