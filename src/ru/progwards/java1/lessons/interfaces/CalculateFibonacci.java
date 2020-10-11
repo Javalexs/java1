@@ -4,15 +4,24 @@ public class CalculateFibonacci {
 
     private static CacheInfo lastFibo;
 
-    public static class CacheInfo{
+    public static class CacheInfo {
         public int n;
         public int fibo;
     }
 
-    public static int fiboNumber (int n) {
+    public static int fiboNumber(int n){
+        int x = 0;
+        int x1 = 1;
+        int x2 = 0;
+        for (int i = 1; i <= n; i++) {
+            x = x1 + x2;
+            x1 = x2;
+            x2 = x;
 
-
+        }
+        return x;
     }
+
     public static CacheInfo getLastFibo(){
         return lastFibo;
     }
