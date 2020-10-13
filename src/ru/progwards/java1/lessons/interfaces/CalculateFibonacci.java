@@ -23,7 +23,7 @@ public class CalculateFibonacci {
     }
 
     public static CacheInfo getLastFibo(){
-        return lastFibo;
+        return CalculateFibonacci.lastFibo;
     }
     public static void clearLastFibo(){
         Integer lastFibo = 0;
