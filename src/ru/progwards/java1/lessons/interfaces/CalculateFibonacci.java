@@ -22,7 +22,7 @@ public class CalculateFibonacci {
         int fibo2 = 0;
         for (int i = 1; i <= n; i++) {
             fibo = fibo1 + fibo2;
-            fibo1 = 2;
+            fibo1 = fibo2;
             fibo2 = fibo;
 
         }
