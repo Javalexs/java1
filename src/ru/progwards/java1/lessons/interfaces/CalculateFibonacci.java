@@ -10,16 +10,23 @@ public class CalculateFibonacci {
     }
 
     public static int fiboNumber(int n){
-        int x = 0;
-        int x1 = 1;
-        int x2 = 0;
+//        int x = 0;
+//        int x1 = 1;
+//        int x2 = 0;
+//        for (int i = 1; i <= n; i++) {
+//            x = x1 + x2;
+//            x1 = x2;
+//            x2 = x;
+        int fibo = 0;
+        int fibo1 = 1;
+        int fibo2 = 0;
         for (int i = 1; i <= n; i++) {
-            x = x1 + x2;
-            x1 = x2;
-            x2 = x;
+            fibo = fibo1 + fibo2;
+            fibo1 = 2;
+            fibo2 = fibo;
 
         }
-        return x;
+        return fibo;
     }
 
     public static CacheInfo getLastFibo(){
