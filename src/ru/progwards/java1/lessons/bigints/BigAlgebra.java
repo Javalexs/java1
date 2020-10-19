@@ -8,7 +8,7 @@ public class BigAlgebra {
         return num.pow(pow);
     }
     public static BigInteger fibonacci(int n){
-        return ;
+//        return ;
     }
 
     public static void main(String[] args) {
