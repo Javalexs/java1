@@ -26,7 +26,6 @@ public class CyclesGoldenFibo {
         }
     }
 
-
     public static int fiboNumber (int n) {
         int x = 0;
         int x1 = 1;
