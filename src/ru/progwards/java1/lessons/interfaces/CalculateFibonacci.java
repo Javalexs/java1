@@ -15,8 +15,8 @@ public class CalculateFibonacci {
     }
 
     public static int fiboNumber(int n){
-//        if (lastFibo != null && lastFibo.n == n)
-//            return lastFibo.fibo;
+        if (lastFibo != null && lastFibo.n == n)
+            return lastFibo.fibo;
         int fibo = 0;
         int fibo1 = 1;
         int fibo2 = 0;
@@ -26,7 +26,7 @@ public class CalculateFibonacci {
             fibo2 = fibo;
 
         }
-//        lastFibo = new CacheInfo(n, fibo);
+        lastFibo = new CacheInfo(n, fibo);
         return fibo;
     }
 
