@@ -8,6 +8,6 @@ public abstract class AbsInteger {
         return "num";
     }
 
-    public static AbsInteger add(AbsInteger num1, AbsInteger num2){
-    }
+//    public static AbsInteger add(AbsInteger num1, AbsInteger num2){
+//    }
 }
