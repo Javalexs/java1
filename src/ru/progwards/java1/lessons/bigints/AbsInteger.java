@@ -9,6 +9,5 @@ public abstract class AbsInteger {
     }
 
     public static AbsInteger add(AbsInteger num1, AbsInteger num2){
-        return num1+num2;
     }
 }
