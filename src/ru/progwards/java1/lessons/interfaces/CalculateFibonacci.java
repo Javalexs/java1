@@ -15,13 +15,8 @@ public class CalculateFibonacci {
     }
 
     public static int fiboNumber(int n){
-//        int x = 0;
-//        int x1 = 1;
-//        int x2 = 0;
-//        for (int i = 1; i <= n; i++) {
-//            x = x1 + x2;
-//            x1 = x2;
-//            x2 = x;
+//        if (lastFibo != null && lastFibo.n == n)
+//            return lastFibo.fibo;
         int fibo = 0;
         int fibo1 = 1;
         int fibo2 = 0;
@@ -31,19 +26,18 @@ public class CalculateFibonacci {
             fibo2 = fibo;
 
         }
-        lastFibo = new CacheInfo(n, fibo);
+//        lastFibo = new CacheInfo(n, fibo);
         return fibo;
     }
 
     public static CacheInfo getLastFibo(){
-
-        return lastFIbo;
+        return lastFibo;
     }
     public static void clearLastFibo() {
-        lastFibo = 0;
+        lastFibo = null;
     }
     public static void main(String[] args) {
-        System.out.println(fiboNumber(10));
+        System.out.println(fiboNumber(3));
         fiboNumber(1);
 
     }
