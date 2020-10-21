@@ -1,14 +1,14 @@
 package ru.progwards.java1.lessons.bigints;
 
-abstract public class AbsInteger {
-    int num;
+public abstract class AbsInteger {
+    public int num;
 
 
     public String toString(){
-
+        return "num";
     }
 
     public static AbsInteger add(AbsInteger num1, AbsInteger num2){
-
+        return num1+num2;
     }
 }
