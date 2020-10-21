@@ -7,6 +7,6 @@ public class IntInteger extends AbsInteger{
     }
     @Override
     public String toString() {
-        return num;
+        return "num";
     }
 }
