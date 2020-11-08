@@ -12,7 +12,7 @@ public class Coder {
             try {
                 int i;
                 String str = "";
-                while ((i = reader.read()) != 1) {
+                while ((i = reader.read()) != -1) {
                     char symbol = (char) i;
                     str = str + code[(int) symbol];
                 }
