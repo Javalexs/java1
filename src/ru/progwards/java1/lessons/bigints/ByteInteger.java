@@ -6,8 +6,6 @@ public class ByteInteger extends AbsInteger{
         super();
         this.num = num;
     }
-    public ByteInteger(short num){
-    }
 
     @Override
     public int getValue(){
