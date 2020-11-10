@@ -10,7 +10,7 @@ public class BigAlgebra {
     public static BigDecimal fastPow(BigDecimal num, int pow){
 
 
-            BigDecimal res = ZERO;
+            BigDecimal res = ONE;
             while (pow > 0) {
                 if (pow == 1) {
                     res = res.multiply(num);
