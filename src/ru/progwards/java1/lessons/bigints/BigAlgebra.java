@@ -27,12 +27,13 @@ public class BigAlgebra {
         BigInteger x1 = new BigInteger("1");
         BigInteger x2 = new BigInteger("0");
         for (int i = 1; i <= n; i++) {
-            x = x1.subtract(x2);
+            x = x1.add(x2);
             x1 = x2;
             x2 = x;
         }
         return x;
     }
+
 
 
 
