@@ -16,7 +16,7 @@ public class BigAlgebra {
                     res = res.multiply(num);
                 }
                 num = num.multiply(num);
-                pow += 1;
+                pow >>= 1;
             }
             return res;
 
