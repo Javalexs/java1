@@ -19,7 +19,7 @@ public class BigAlgebra {
                 pow += 1;
             }
             return res;
-        };
+
     }
     public static BigInteger fibonacci(int n) {
         BigInteger x = new BigInteger("0");
