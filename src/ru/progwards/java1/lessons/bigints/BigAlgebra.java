@@ -10,13 +10,13 @@ public class BigAlgebra {
     public static BigDecimal fastPow(BigDecimal num, int pow){
 
 
-            BigDecimal res = ZERO;
+            BigDecimal res = ONE;
             while (pow > 0) {
                 if ((pow & 1) == 1) {
                     res = res.multiply(num);
                 }
                 num = num.multiply(num);
-                pow >>= 1;
+                pow = pow + 1;
             }
             return res;
 
