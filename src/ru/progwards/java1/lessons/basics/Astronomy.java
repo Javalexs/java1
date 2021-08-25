@@ -20,10 +20,7 @@ public class Astronomy {
         double S = 4.0*Pi*r*r;
         return S;
     }
-    public static Double earthSquare(){
-
-        return sphereSquare(6371.2);
-    }
+    public static Double earthSquare(){ return sphereSquare(6371.2); }
     public static Double mercurySquare(){
         return sphereSquare(2439.7);
     }

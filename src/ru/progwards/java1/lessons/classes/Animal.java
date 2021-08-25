@@ -10,14 +10,14 @@ public class Animal {
     public enum FoodKind {UNKNOWN, HAY, CORN};
 
     public static void main(String[] args) {
-//        Animal animal = new Animal(30.0);
-//        System.out.println(calculateFoodWeight());
-//        Cow cow = new Cow (31.9, 34,6)
-//        System.out.println(cow.toStringFull());
-//        Hamster hamster = new Hamster(2.9, 0.03);
-//        System.out.println(hamster.toStringFull());
+//       Animal animal = new Animal(30.0);
+//        //System.out.println(calculateFoodWeight());
+//        Cow cow = new Cow (31.9);
+//        //System.out.println(cow.toStringFull());
+//        Hamster hamster = new Hamster(2.9);
+////        System.out.println(hamster.toStringFull());
 //        Duck duck = new Duck(9.0, 0.04);
-//        System.out.println(duck.toStringFull());
+////        System.out.println(duck.toStringFull());
 
     }
 
