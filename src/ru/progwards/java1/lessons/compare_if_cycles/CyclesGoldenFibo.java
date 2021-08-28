@@ -4,9 +4,9 @@ public class CyclesGoldenFibo {
 //        int a = 0;
         if (number == 0 && digit == 0)
             return true;
-        for(int i = 1; i < 1000000000; i = i * 10){
-            int a = (number % i);
-            if (a == digit)
+        while (number != 0){
+
+            if ((number % 10) == digit)
                 return true;
                 number = number / 10;
 

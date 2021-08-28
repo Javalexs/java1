@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d42e9363-d39a-4135-abe0-1729f5607597" name="Default Changelist" comment="Test">
-      <change beforePath="$PROJECT_DIR$/out/production/Progwards/ru/progwards/java1/lessons/compare_if_cycles/CyclesGoldenFibo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Progwards/ru/progwards/java1/lessons/compare_if_cycles/CyclesGoldenFibo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Progwards/ru/progwards/java1/lessons/compare_if_cycles/TriangleSimpleInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Progwards/ru/progwards/java1/lessons/compare_if_cycles/TriangleSimpleInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Progwards/ru/progwards/java1/lessons/kniga/TestArrays.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/progwards/java1/lessons/basics/ReverseDigits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/progwards/java1/lessons/basics/ReverseDigits.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/progwards/java1/lessons/compare_if_cycles/CyclesGoldenFibo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/progwards/java1/lessons/compare_if_cycles/CyclesGoldenFibo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/progwards/java1/lessons/compare_if_cycles/TriangleSimpleInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/progwards/java1/lessons/compare_if_cycles/TriangleSimpleInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/progwards/java1/lessons/kniga/TestArrays.java" beforeDir="false" />
-    </list>
+    <list default="true" id="d42e9363-d39a-4135-abe0-1729f5607597" name="Default Changelist" comment="Test2" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -124,7 +116,21 @@
       <option name="project" value="LOCAL" />
       <updated>1629901443635</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Test1">
+      <created>1630132195635</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1630132195635</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Test2">
+      <created>1630132690046</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1630132690046</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -142,6 +148,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Basics" />
     <MESSAGE value="Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test" />
+    <MESSAGE value="Test1" />
+    <MESSAGE value="Test2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test2" />
   </component>
 </project>
