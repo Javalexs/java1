@@ -9,9 +9,9 @@ public class TriangleSimpleInfo {
 
     }
         public static int maxSide(int a, int b, int c){
-            if(a > b && a > c){
+            if(a > b && a > c && a == b){
                 return a;
-            }else if(b > a && b > c){
+            }else if(b > a && b > c && a == b){
                 return b;
             }else{
                 return c;
