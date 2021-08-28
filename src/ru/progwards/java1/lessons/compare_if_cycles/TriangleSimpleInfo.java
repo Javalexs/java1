@@ -9,45 +9,33 @@ public class TriangleSimpleInfo {
 
     }
         public static int maxSide(int a, int b, int c){
-            if(a > b && a > c && a == b){
-                return a;
-            }else if(b > a && b > c && a == b){
-                return b;
-            }else{
+
+
+            int m;
+            if (a > b) {
+                m = a;
+            } else {
+                m = b;
+            }
+            if (m > c) {
+                return m;
+            } else {
                 return c;
             }
-
-//            int m;
-//            if (a > b) {
-//                m = a;
-//            } else {
-//                m = b;
-//            }
-//            if (m > c) {
-//                return m;
-//            } else {
-//                return c;
-//            }
         }
         public static int minSide(int a, int b, int c){
-            if(a < b && a < c){
-                return a;
-            }else if(b < a && b < c){
-                return b;
-            }else{
+
+            int m;
+            if (a < b) {
+                m = a;
+            } else {
+                m = b;
+            }
+            if (m < c) {
+                return m;
+            } else {
                 return c;
             }
-//            int m;
-//            if (a < b) {
-//                m = a;
-//            } else {
-//                m = b;
-//            }
-//            if (m < c) {
-//                return m;
-//            } else {
-//                return c;
-//            }
         }
         public static boolean isEquilateralTriangle(int a, int b, int c){
             if (a==b && a==c && b==c){
