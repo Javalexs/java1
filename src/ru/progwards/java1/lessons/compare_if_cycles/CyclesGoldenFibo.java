@@ -5,9 +5,11 @@ public class CyclesGoldenFibo {
         if (number == 0 && digit == 0)
             return true;
         for(int i = 1; i < 1000000000; i = i * 10){
-            int a = (number % (10*i))/i;
+            int a = (number % i);
             if (a == digit)
                 return true;
+                number = number / 10;
+
         }
         return false;
     }
