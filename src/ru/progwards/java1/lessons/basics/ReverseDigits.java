@@ -12,7 +12,7 @@ public class ReverseDigits {
             int a = number/100;
             int b = (number - (a*100))/10;
             int c = (number - (a*100))%(b*10);
-//            String str = cba;
+
 
             return c*100 + b*10 + a ;
     }
