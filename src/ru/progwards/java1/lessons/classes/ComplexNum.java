@@ -25,19 +25,21 @@ public class ComplexNum {
     }
 
     public ComplexNum mul(ComplexNum num) { //(a + bi) * (c + di) = (a*c - b*d) + (b*c + a*d)i
+        int a = this.a;
+        int b = this.b;
 
-
-        this.a = this.a*num.a - this.b*num.b;
-        this.b = this.b*num.a + this.a*num.b;
+        this.a = a*num.a - b*num.b;
+        this.b = b*num.a + a*num.b;
 
         return this;
     }
 
     public ComplexNum div(ComplexNum num) { //(a + bi) / (c + di) = (a*c + b*d)/(c*c+d*d) + ((b*c - a*d)/(c*c+d*d))i
+        int a = this.a;
+        int b = this.b;
 
-
-        this.a = (this.a*num.a + this.b*num.b)/(num.a*num.a + num.b*num.b);
-        this.b = (this.b*num.a - this.a*num.b)/(num.a*num.a + num.b*num.b);
+        this.a = (a*num.a + b*num.b)/(num.a*num.a + num.b*num.b);
+        this.b = (b*num.a - a*num.b)/(num.a*num.a + num.b*num.b);
 
         return this;
     }
