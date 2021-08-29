@@ -25,16 +25,6 @@ public class Animal {
         this.weight = weight;
     }
 
-    public double getWeight() {
-        return weight;
-    }
-    public double getFoodCoeff() {
-        return 0.02;
-    }
-    public double calculateFoodWeight(){
-        return getFoodCoeff() * getWeight();
-    }
-
     public AnimalKind getKind() {
         return AnimalKind.ANIMAL;
     }
@@ -45,10 +35,21 @@ public class Animal {
 
     public String toString() {
         return "I am " + getKind() + ", eat " + getFoodKind();
-
     }
+
+    public double getWeight() {
+        return weight;
+    }
+    public double getFoodCoeff() {
+        return 0.02;
+    }
+    public double calculateFoodWeight(){
+        return getFoodCoeff() * getWeight();
+    }
+
     public String toStringFull() {
         return "I am " + getKind() + ", eat " + getFoodKind() + " " + getFoodCoeff() * getWeight();
     }
+
 }
 
