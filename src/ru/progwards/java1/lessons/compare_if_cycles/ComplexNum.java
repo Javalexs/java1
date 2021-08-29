@@ -1,23 +1,23 @@
-package ru.progwards.java1.lessons.classes;
+package ru.progwards.java1.lessons.compare_if_cycles;
 
 public class ComplexNum {
-    int a;
-    int b;
+        int a;
+        int b;
 
-    public ComplexNum(int a, int b){
-        this.a = a;
-        this.b = b;
-    }
-    @Override
-    public String toString() {
+        public ComplexNum(int a, int b){
+            this.a = a;
+            this.b = b;
+        }
+        @Override
+        public String toString() {
 
-        return this.a + "+" + this.b + "i";
-    }
-    public ComplexNum add(ComplexNum num) { // (a + bi) + (c + di) = (a + c) + (b + d)i
-        this.a = this.a + num.a;
-        this.b = this.b + num.b;
-        return this;
-    }
+            return this.a + "+" + this.b + "i";
+        }
+        public ComplexNum add(ComplexNum num) { // (a + bi) + (c + di) = (a + c) + (b + d)i
+            this.a = this.a + num.a;
+            this.b = this.b + num.b;
+            return this;
+        }
         public ComplexNum sub(ComplexNum num) { //(a + bi) - (c + di) = (a - c) + (b - d)i
             this.a = this.a - num.a;
             this.b = this.b - num.b;
@@ -45,6 +45,7 @@ public class ComplexNum {
         public static void main(String[] args) {
 
         }
+
 
 
 
