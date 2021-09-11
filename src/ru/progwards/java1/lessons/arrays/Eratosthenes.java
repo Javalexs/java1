@@ -25,8 +25,8 @@ public class Eratosthenes {
             return sieve[n];
         }
 
-    public static void main(String[] args) {
-        System.out.println(new Eratosthenes(7));
-
-    }
+//    public static void main(String[] args) {
+//        System.out.println(new Eratosthenes(7));
+//
+//    }
 }
