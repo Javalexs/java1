@@ -45,6 +45,9 @@ public class ComplexNum {
     }
 
     public static void main(String[] args) {
+        System.out.println(new ComplexNum(99, 50).sub(new ComplexNum(1, 50)).toString());
+        System.out.println(new ComplexNum(1, 1).mul(new ComplexNum(99, 99)).toString());
+        System.out.println(new ComplexNum(1000, 1000).div(new ComplexNum(100, 100)).toString());
 
     }
 

@@ -1,21 +1,28 @@
-import java.util.ArrayList;
-import java.util.List;
+
 
 public class TestClass {
 //    public int i;
 
     public static void main(String[] args) {
-        List<String> items = new ArrayList<>();
-        items.add("Pen");
-        items.add("Pencil");
-        items.add("Box");
-            for( String i : items){
-               if(i.indexOf("P") == 0){
-                   continue;
-               }else{
-                   System.out.println(i + " ");
-               }
+        System.out.println(fda("324306"));
 
-            }
+    }
+    public static int fda (String s){
+            int x = Integer.parseInt(s);
+//        for(int i = 1; i < 4; i++){
+//            a += s.charAt(i);
+//        }
+//        char b = 0;
+//        for(int i = 4; i < 7; i++){
+//            b += s.charAt(i);
+//        }
+        int a = x/100000 + (x/10000)%10 + (x/1000)%10;
+        int b = x/100 + x/10;
+//        if (a == b) {
+            return a;
+//        }else{
+//            return "kjk";
+//        }
+
     }
 }

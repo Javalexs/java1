@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d42e9363-d39a-4135-abe0-1729f5607597" name="Default Changelist" comment="Test14">
+    <list default="true" id="d42e9363-d39a-4135-abe0-1729f5607597" name="Default Changelist" comment="Test15">
+      <change afterPath="$PROJECT_DIR$/src/ru/progwards/java1/lessons/arrays/Eratosthenes2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Progwards/ru/progwards/java1/lessons/classes/ComplexNum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Progwards/ru/progwards/java1/lessons/classes/ComplexNum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Progwards/TestClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Progwards/TestClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Progwards/ru/progwards/java1/lessons/arrays/Eratosthenes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Progwards/ru/progwards/java1/lessons/arrays/Eratosthenes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Progwards/ru/progwards/java1/lessons/classes/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Progwards/ru/progwards/java1/lessons/classes/Animal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/progwards/java1/lessons/arrays/Eratosthenes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/progwards/java1/lessons/arrays/Eratosthenes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ru/progwards/java1/lessons/classes/ComplexNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/progwards/java1/lessons/classes/ComplexNum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,7 +40,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
-  <component name="RunManager" selected="Application.ComplexNum">
+  <component name="RunManager" selected="Application.TestClass">
     <configuration name="ComplexNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.progwards.java1.lessons.classes.ComplexNum" />
       <module name="progwards" />
@@ -62,22 +67,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Fact" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Fact" />
+    <configuration name="Eratosthenes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.progwards.java1.lessons.arrays.Eratosthenes" />
       <module name="progwards" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.progwards.java1.lessons.arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Grade" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.progwards.java1.lessons.Grade" />
+    <configuration name="TestClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestClass" />
       <module name="progwards" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.progwards.java1.lessons.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -97,11 +102,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestClass" />
+        <item itemvalue="Application.Eratosthenes" />
         <item itemvalue="Application.ComplexNum" />
         <item itemvalue="Application.CyclesGoldenFibo" />
         <item itemvalue="Application.TriangleSimpleInfo" />
-        <item itemvalue="Application.Fact" />
-        <item itemvalue="Application.Grade" />
       </list>
     </recent_temporary>
   </component>
@@ -198,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630256287667</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Test15">
+      <created>1630257013719</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1630257013719</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -230,6 +242,7 @@
     <MESSAGE value="Test12" />
     <MESSAGE value="Test13" />
     <MESSAGE value="Test14" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test14" />
+    <MESSAGE value="Test15" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test15" />
   </component>
 </project>
