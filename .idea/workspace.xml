@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d42e9363-d39a-4135-abe0-1729f5607597" name="Default Changelist" comment="Test15">
-      <change afterPath="$PROJECT_DIR$/src/ru/progwards/java1/lessons/arrays/Eratosthenes2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Progwards/TestClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Progwards/TestClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Progwards/ru/progwards/java1/lessons/arrays/Eratosthenes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Progwards/ru/progwards/java1/lessons/arrays/Eratosthenes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Progwards/ru/progwards/java1/lessons/classes/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Progwards/ru/progwards/java1/lessons/classes/Animal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/progwards/java1/lessons/arrays/Eratosthenes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/progwards/java1/lessons/arrays/Eratosthenes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/progwards/java1/lessons/classes/ComplexNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/progwards/java1/lessons/classes/ComplexNum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/progwards/java1/lessons/arrays/Eratosthenes2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/progwards/java1/lessons/arrays/Eratosthenes2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -210,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630257013719</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Test15">
+      <created>1631385820919</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1631385820919</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

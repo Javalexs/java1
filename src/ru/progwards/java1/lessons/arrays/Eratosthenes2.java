@@ -15,16 +15,16 @@ public class Eratosthenes2 {
         sift();
     }
 
-    private void sift() {
-        sieve[1] = false;
-        for (int i = 2; i * i < N; i++)
-            if (sieve[i])
-                for (int j = i*i; j < N; j += i)
-                    sieve[j] = false;
-    }
-
-    public boolean isSimple(int n){
-        return sieve[n];
+//    private void sift() {
+//        sieve[1] = false;
+//        for (int i = 2; i * i < N; i++)
+//            if (sieve[i])
+//                for (int j = i*i; j < N; j += i)
+//                    sieve[j] = false;
+//    }
+//
+//    public boolean isSimple(int n){
+//        return sieve[n];
 
     }
 
