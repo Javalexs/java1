@@ -2,7 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d42e9363-d39a-4135-abe0-1729f5607597" name="Default Changelist" comment="Test15">
-      <change beforePath="$PROJECT_DIR$/src/ru/progwards/java1/lessons/arrays/Eratosthenes2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/progwards/java1/lessons/arrays/Eratosthenes2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/progwards/java1/lessons/interfaces/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/progwards/java1/lessons/interfaces/Food.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Progwards/TestClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Progwards/TestClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Progwards/ru/progwards/java1/lessons/arrays/ArraySort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Progwards/ru/progwards/java1/lessons/arrays/ArraySort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Progwards/ru/progwards/java1/lessons/arrays/DIntArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Progwards/ru/progwards/java1/lessons/arrays/DIntArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Progwards/ru/progwards/java1/lessons/arrays/Eratosthenes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Progwards/ru/progwards/java1/lessons/arrays/Eratosthenes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Progwards/ru/progwards/java1/lessons/compare_if_cycles/CyclesGoldenFibo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Progwards/ru/progwards/java1/lessons/compare_if_cycles/CyclesGoldenFibo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Progwards/ru/progwards/java1/lessons/interfaces/CalculateFibonacci.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Progwards/ru/progwards/java1/lessons/interfaces/CalculateFibonacci.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/progwards/java1/lessons/arrays/ArraySort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/progwards/java1/lessons/arrays/ArraySort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/progwards/java1/lessons/arrays/DIntArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/progwards/java1/lessons/arrays/DIntArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/progwards/java1/lessons/arrays/Eratosthenes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/progwards/java1/lessons/arrays/Eratosthenes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/progwards/java1/lessons/arrays/Eratosthenes2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/progwards/java1/lessons/classes/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/progwards/java1/lessons/classes/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/progwards/java1/lessons/compare_if_cycles/CyclesGoldenFibo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/progwards/java1/lessons/compare_if_cycles/CyclesGoldenFibo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/progwards/java1/lessons/interfaces/CalculateFibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/progwards/java1/lessons/interfaces/CalculateFibonacci.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/progwards/java1/lessons/interfaces/Cow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/progwards/java1/lessons/interfaces/Cow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/progwards/java1/lessons/interfaces/Duck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/progwards/java1/lessons/interfaces/Duck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/progwards/java1/lessons/interfaces/FoodCompare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/progwards/java1/lessons/interfaces/FoodCompare.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/progwards/java1/lessons/interfaces/Hamster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/progwards/java1/lessons/interfaces/Hamster.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,13 +53,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
-  <component name="RunManager" selected="Application.TestClass">
-    <configuration name="ComplexNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.progwards.java1.lessons.classes.ComplexNum" />
+  <component name="RunManager" selected="Application.CalculateFibonacci">
+    <configuration name="ArraySort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.progwards.java1.lessons.arrays.ArraySort" />
       <module name="progwards" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.progwards.java1.lessons.classes.*" />
+          <option name="PATTERN" value="ru.progwards.java1.lessons.arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -47,12 +67,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CyclesGoldenFibo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.progwards.java1.lessons.compare_if_cycles.CyclesGoldenFibo" />
+    <configuration name="CalculateFibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.progwards.java1.lessons.interfaces.CalculateFibonacci" />
       <module name="progwards" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.progwards.java1.lessons.compare_if_cycles.*" />
+          <option name="PATTERN" value="ru.progwards.java1.lessons.interfaces.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DIntArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.progwards.java1.lessons.arrays.DIntArray" />
+      <module name="progwards" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.progwards.java1.lessons.arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,26 +113,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TriangleSimpleInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.progwards.java1.lessons.compare_if_cycles.TriangleSimpleInfo" />
-      <module name="progwards" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.progwards.java1.lessons.compare_if_cycles.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CalculateFibonacci" />
+        <item itemvalue="Application.DIntArray" />
+        <item itemvalue="Application.ArraySort" />
         <item itemvalue="Application.TestClass" />
         <item itemvalue="Application.Eratosthenes" />
-        <item itemvalue="Application.ComplexNum" />
-        <item itemvalue="Application.CyclesGoldenFibo" />
-        <item itemvalue="Application.TriangleSimpleInfo" />
       </list>
     </recent_temporary>
   </component>
@@ -210,7 +230,21 @@
       <option name="project" value="LOCAL" />
       <updated>1631385820919</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Test15">
+      <created>1631385852401</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1631385852401</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Test15">
+      <created>1631386074653</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1631386074653</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

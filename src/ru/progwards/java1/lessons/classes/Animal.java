@@ -1,6 +1,8 @@
 package ru.progwards.java1.lessons.classes;
 
-public class Animal {
+import ru.progwards.java1.lessons.interfaces.CompareWeight;
+
+public class Animal{
 
 
     double weight;

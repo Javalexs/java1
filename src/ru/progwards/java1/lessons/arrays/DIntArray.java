@@ -8,7 +8,13 @@ public class DIntArray {
 
     public static void main(String[] args) {
         DIntArray arr = new DIntArray();
-        arr.atDelete(3);
+        arr.add(46);
+//        arr.add(40);
+        arr.add(15);
+        arr.add(82);
+        arr.atInsert(3,40);
+        arr.atDelete(2);
+        System.out.println(arr.at(0));
     }
 
     public DIntArray() {
@@ -20,7 +26,6 @@ public class DIntArray {
         b[a.length] = num;
         a = b;
     }
-
     public void atInsert(int pos, int num) {
         int[] b = new int[a.length + 1];
         System.arraycopy(a, 0, b, 0, pos);
@@ -28,7 +33,6 @@ public class DIntArray {
         b[pos] = num;
         a = b;
     }
-
     public void atDelete(int pos) {
         int[] b = new int[a.length - 1];
         System.arraycopy(a, 0, b, 0, pos);
@@ -36,7 +40,6 @@ public class DIntArray {
         a = b;
 
     }
-
     public int at(int pos) {
         return a[pos];
     }

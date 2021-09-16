@@ -5,6 +5,9 @@ import java.util.Arrays;
 public class ArraySort {
     //    int b;
     public static void main(String[] args) {
+        int [] a = {1,5,7,2,4,8,3,4,6};
+        sort(a);
+        System.out.println(Arrays.toString(a));
 
     }
     public static void sort(int[] a){

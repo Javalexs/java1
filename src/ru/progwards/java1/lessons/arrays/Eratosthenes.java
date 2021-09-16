@@ -6,7 +6,7 @@ public class Eratosthenes {
         public Eratosthenes(int N){
             this.N = N;
             this.sieve = new boolean[N];
-                for(int i = 0; i <= N; i++){
+                for(int i = 1; i < N; i++){
                     sieve [i] = true;
                 }
             sift();
@@ -16,7 +16,7 @@ public class Eratosthenes {
             sieve[1] = false;
             for(int i = 2; i < N - 1; i++){
                 for(int j = 2; j*i < N - 1; j++){
-                    sieve[j] = false;
+                    sieve[i*j] = false;
                 }
             }
         }
@@ -25,8 +25,14 @@ public class Eratosthenes {
             return sieve[n];
         }
 
-//    public static void main(String[] args) {
-//        System.out.println(new Eratosthenes(7));
-//
-//    }
+    public static void main(String[] args) {
+        Eratosthenes erat = new Eratosthenes(20);
+
+        System.out.println(erat.isSimple(1));
+        System.out.println(erat.isSimple(2));
+        System.out.println(erat.isSimple(3));
+        System.out.println(erat.isSimple(4));
+        System.out.println(erat.isSimple(5));
+
+    }
 }

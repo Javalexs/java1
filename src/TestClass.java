@@ -4,25 +4,36 @@ public class TestClass {
 //    public int i;
 
     public static void main(String[] args) {
-        System.out.println(fda("324306"));
+        System.out.println(fiboNumber(1));
 
     }
-    public static int fda (String s){
-            int x = Integer.parseInt(s);
-//        for(int i = 1; i < 4; i++){
-//            a += s.charAt(i);
+    public static int fiboNumber (int n) {
+        if(n == 1) return 1000000;
+        int x = 0;
+        int x1 = 1;
+        int x2 = 0;
+        for (int i = 1; i <= n - 1; i++) {
+            x = x1 + x2;
+            x1 = x2;
+            x2 = x;
+        }
+        return x;
+    }
+//    public static String fda (String str){
+////            int x = Integer.parseInt(str);
+//        int a = 0;
+//        for(int i = 0; i < 3; i++){
+//            a += str.charAt(i);
 //        }
-//        char b = 0;
-//        for(int i = 4; i < 7; i++){
-//            b += s.charAt(i);
+//        int b = 0;
+//        for(int i = 3; i < 6; i++){
+//            b += str.charAt(i);
 //        }
-        int a = x/100000 + (x/10000)%10 + (x/1000)%10;
-        int b = x/100 + x/10;
-//        if (a == b) {
-            return a;
-//        }else{
-//            return "kjk";
+//        if (a == b){
+//            return "Да";
+//        }else {
+//            return "Нет";
 //        }
 
-    }
+
 }

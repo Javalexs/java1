@@ -36,5 +36,15 @@ public class CalculateFibonacci {
         lastFibo = null;
     }
     public static void main(String[] args) {
-        System.out.println(fiboNumber(34)); }
+        System.out.println(fiboNumber(9));
+        System.out.println(lastFibo.fibo);
+        System.out.println(fiboNumber(25));
+        System.out.println(getLastFibo());
+        System.out.println( lastFibo.n + ", " + lastFibo.fibo);
+        clearLastFibo();
+        System.out.println(fiboNumber(12));
+        clearLastFibo();
+        System.out.println(lastFibo.fibo);
+
+    }
 }

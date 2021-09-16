@@ -35,7 +35,7 @@ public class CyclesGoldenFibo {
         int x = 0;
         int x1 = 1;
         int x2 = 0;
-        for (int i = 1; i <= n; i++) {
+        for (int i = 1; i <= n - 1; i++) {
             x = x1 + x2;
             x1 = x2;
             x2 = x;
