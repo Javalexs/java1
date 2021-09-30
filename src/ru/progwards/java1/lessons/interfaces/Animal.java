@@ -3,22 +3,12 @@ package ru.progwards.java1.lessons.interfaces;
 import java.util.Objects;
 
 public class Animal implements FoodCompare, CompareWeight {
-            double weight;
-    private double smthHasWeigt;
-
+    double weight;
 
     public enum AnimalKind {ANIMAL, COW, HAMSTER, DUCK};
         public enum FoodKind {UNKNOWN, HAY, CORN};
 
         public static void main(String[] args) {
-//       Animal animal = new Animal(30.0);
-//        //System.out.println(calculateFoodWeight());
-//        Cow cow = new Cow (31.9);
-//        //System.out.println(cow.toStringFull());
-//        Hamster hamster = new Hamster(2.9);
-////        System.out.println(hamster.toStringFull());
-//        Duck duck = new Duck(9.0, 0.04);
-////        System.out.println(duck.toStringFull());
 
         }
 //    public enum CompareResult{
@@ -27,16 +17,16 @@ public class Animal implements FoodCompare, CompareWeight {
 //        GREATER,
 //
 //    }
+
     public CompareResult compareWeight(CompareWeight smthHasWeigt){
-            if(this.weight < weight) {
+            Animal an = (Animal) smthHasWeigt;
+            if(this.getWeight() < an.getWeight()) {
                 return CompareResult.LESS;
-            }else if(this.weight == weight){
+            }else if(this.getWeight() == an.getWeight()){
                 return CompareResult.EQUAL;
             } else{
                 return CompareResult.GREATER;
             }
-
-
     }
 
     public double getFood1kgPrice(){
@@ -97,6 +87,7 @@ public class Animal implements FoodCompare, CompareWeight {
         public String toStringFull() {
             return "I am " + getKind() + ", eat " + getFoodKind() + " " + getFoodCoeff() * getWeight();
         }
+
 
 
 }

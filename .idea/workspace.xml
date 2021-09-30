@@ -1,28 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d42e9363-d39a-4135-abe0-1729f5607597" name="Default Changelist" comment="Test15">
-      <change afterPath="$PROJECT_DIR$/src/ru/progwards/java1/lessons/interfaces/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/progwards/java1/lessons/interfaces/Food.java" afterDir="false" />
+    <list default="true" id="d42e9363-d39a-4135-abe0-1729f5607597" name="Default Changelist" comment="Test16">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Progwards/TestClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Progwards/TestClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Progwards/ru/progwards/java1/lessons/arrays/ArraySort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Progwards/ru/progwards/java1/lessons/arrays/ArraySort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Progwards/ru/progwards/java1/lessons/arrays/DIntArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Progwards/ru/progwards/java1/lessons/arrays/DIntArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Progwards/ru/progwards/java1/lessons/arrays/Eratosthenes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Progwards/ru/progwards/java1/lessons/arrays/Eratosthenes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Progwards/ru/progwards/java1/lessons/compare_if_cycles/CyclesGoldenFibo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Progwards/ru/progwards/java1/lessons/compare_if_cycles/CyclesGoldenFibo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Progwards/ru/progwards/java1/lessons/interfaces/CalculateFibonacci.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Progwards/ru/progwards/java1/lessons/interfaces/CalculateFibonacci.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/progwards/java1/lessons/arrays/ArraySort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/progwards/java1/lessons/arrays/ArraySort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/progwards/java1/lessons/arrays/DIntArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/progwards/java1/lessons/arrays/DIntArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/progwards/java1/lessons/arrays/Eratosthenes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/progwards/java1/lessons/arrays/Eratosthenes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/progwards/java1/lessons/arrays/Eratosthenes2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/progwards/java1/lessons/classes/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/progwards/java1/lessons/classes/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/progwards/java1/lessons/compare_if_cycles/CyclesGoldenFibo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/progwards/java1/lessons/compare_if_cycles/CyclesGoldenFibo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/progwards/java1/lessons/interfaces/CalculateFibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/progwards/java1/lessons/interfaces/CalculateFibonacci.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/progwards/java1/lessons/interfaces/Cow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/progwards/java1/lessons/interfaces/Cow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/progwards/java1/lessons/interfaces/Duck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/progwards/java1/lessons/interfaces/Duck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/progwards/java1/lessons/interfaces/FoodCompare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/progwards/java1/lessons/interfaces/FoodCompare.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/progwards/java1/lessons/interfaces/Hamster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/progwards/java1/lessons/interfaces/Hamster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Progwards/Fact.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Progwards/Fact.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Progwards/ru/progwards/java1/lessons/bigints/AbsInteger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Progwards/ru/progwards/java1/lessons/bigints/ArrayInteger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Progwards/ru/progwards/java1/lessons/bigints/BigAlgebra.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Progwards/ru/progwards/java1/lessons/bigints/BigAlgebra.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Progwards/ru/progwards/java1/lessons/bigints/ByteInteger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Progwards/ru/progwards/java1/lessons/bigints/IntInteger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Progwards/ru/progwards/java1/lessons/bigints/ShortInteger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Progwards/ru/progwards/java1/lessons/bitsworld/SumBits.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Progwards/ru/progwards/java1/lessons/bitsworld/SumBits.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Progwards/ru/progwards/java1/lessons/classes/Animal$AnimalKind.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Progwards/ru/progwards/java1/lessons/classes/Animal$AnimalKind.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Progwards/ru/progwards/java1/lessons/classes/Animal$FoodKind.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Progwards/ru/progwards/java1/lessons/classes/Animal$FoodKind.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Progwards/ru/progwards/java1/lessons/classes/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Progwards/ru/progwards/java1/lessons/classes/Animal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Progwards/ru/progwards/java1/lessons/interfaces/CompareWeight.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Progwards/ru/progwards/java1/lessons/interfaces/CompareWeight.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Progwards/ru/progwards/java1/lessons/interfaces/FoodCompare.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Progwards/ru/progwards/java1/lessons/interfaces/FoodCompare.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Progwards/ru/progwards/java1/lessons/io1/LineCount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Fact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Fact.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/progwards/java1/lessons/bigints/AbsInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/progwards/java1/lessons/bigints/AbsInteger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/progwards/java1/lessons/bigints/ArrayInteger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/progwards/java1/lessons/bigints/BigAlgebra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/progwards/java1/lessons/bigints/BigAlgebra.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/progwards/java1/lessons/bigints/ByteInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/progwards/java1/lessons/bigints/ByteInteger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/progwards/java1/lessons/bigints/IntInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/progwards/java1/lessons/bigints/IntInteger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/progwards/java1/lessons/bigints/ShortInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/progwards/java1/lessons/bigints/ShortInteger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/progwards/java1/lessons/bitsworld/SumBits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/progwards/java1/lessons/bitsworld/SumBits.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/progwards/java1/lessons/interfaces/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/progwards/java1/lessons/interfaces/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/progwards/java1/lessons/interfaces/CompareWeight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/progwards/java1/lessons/interfaces/CompareWeight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/progwards/java1/lessons/interfaces/Food.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/progwards/java1/lessons/interfaces/Food.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/progwards/java1/lessons/io1/LineCount.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,13 +59,26 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
-  <component name="RunManager" selected="Application.CalculateFibonacci">
-    <configuration name="ArraySort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.progwards.java1.lessons.arrays.ArraySort" />
+  <component name="RunManager" selected="Application.BigAlgebra">
+    <configuration name="BigAlgebra" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.progwards.java1.lessons.bigints.BigAlgebra" />
       <module name="progwards" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.progwards.java1.lessons.arrays.*" />
+          <option name="PATTERN" value="ru.progwards.java1.lessons.bigints.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Binary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.progwards.java1.lessons.bitsworld.Binary" />
+      <module name="progwards" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.progwards.java1.lessons.bitsworld.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,46 +99,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DIntArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.progwards.java1.lessons.arrays.DIntArray" />
+    <configuration name="Fact" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Fact" />
       <module name="progwards" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.progwards.java1.lessons.arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Eratosthenes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.progwards.java1.lessons.arrays.Eratosthenes" />
+    <configuration name="SumBits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.progwards.java1.lessons.bitsworld.SumBits" />
       <module name="progwards" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.progwards.java1.lessons.arrays.*" />
+          <option name="PATTERN" value="ru.progwards.java1.lessons.bitsworld.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestClass" />
-      <module name="progwards" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BigAlgebra" />
+        <item itemvalue="Application.SumBits" />
+        <item itemvalue="Application.Binary" />
+        <item itemvalue="Application.Fact" />
         <item itemvalue="Application.CalculateFibonacci" />
-        <item itemvalue="Application.DIntArray" />
-        <item itemvalue="Application.ArraySort" />
-        <item itemvalue="Application.TestClass" />
-        <item itemvalue="Application.Eratosthenes" />
       </list>
     </recent_temporary>
   </component>
@@ -244,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631386074653</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Test16">
+      <created>1631825215045</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1631825215061</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -277,6 +290,7 @@
     <MESSAGE value="Test13" />
     <MESSAGE value="Test14" />
     <MESSAGE value="Test15" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test15" />
+    <MESSAGE value="Test16" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test16" />
   </component>
 </project>

@@ -1,6 +1,8 @@
 public class Fact {
     public static void main(String[] args) {
         System.out.println(factorial(0));
+        int speed = 1;
+        System.out.println(Integer.toBinaryString(speed));
 
     }
     static long factorial(long n){

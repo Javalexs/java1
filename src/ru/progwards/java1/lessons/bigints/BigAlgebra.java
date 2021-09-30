@@ -7,20 +7,19 @@ import static java.math.BigDecimal.ONE;
 import static java.math.BigDecimal.ZERO;
 
 public class BigAlgebra {
-    public static BigDecimal fastPow(BigDecimal num, int pow) {
-
-
-        BigDecimal res = ONE;
-        while (pow > 0) {
-            if ((pow & 1) == 1) {
-                res = res.multiply(num);
-            }
-            num = num.multiply(num);
-            pow >>= 1;
-        }
-        return res;
-
+    public static void main(String[] args) {
+        System.out.println(fastPow(new BigDecimal(4), 0));
     }
+
+    public static BigDecimal fastPow(BigDecimal num, int pow) {
+        BigDecimal result = ONE;
+        for (int i = 1; i <= pow; i++) {
+            result = result.multiply(num);
+        }
+        if (pow == 0) ;
+        return result;
+    }
+
 
     public static BigInteger fibonacci(int n) {
         BigInteger x = new BigInteger("0");
@@ -33,8 +32,5 @@ public class BigAlgebra {
         }
         return x;
     }
-
-
-
 
 }
