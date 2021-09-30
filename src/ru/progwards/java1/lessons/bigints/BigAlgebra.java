@@ -16,7 +16,7 @@ public class BigAlgebra {
         for (int i = 1; i <= pow; i++) {
             result = result.multiply(num);
         }
-        if (pow == 0) ;
+
         return result;
     }
 
