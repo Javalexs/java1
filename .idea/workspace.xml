@@ -3,32 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="d42e9363-d39a-4135-abe0-1729f5607597" name="Default Changelist" comment="Test16">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Progwards/Fact.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Progwards/Fact.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Progwards/ru/progwards/java1/lessons/bigints/AbsInteger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Progwards/ru/progwards/java1/lessons/bigints/ArrayInteger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Progwards/ru/progwards/java1/lessons/bigints/BigAlgebra.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Progwards/ru/progwards/java1/lessons/bigints/BigAlgebra.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Progwards/ru/progwards/java1/lessons/bigints/ByteInteger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Progwards/ru/progwards/java1/lessons/bigints/IntInteger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Progwards/ru/progwards/java1/lessons/bigints/ShortInteger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Progwards/ru/progwards/java1/lessons/bitsworld/SumBits.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Progwards/ru/progwards/java1/lessons/bitsworld/SumBits.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Progwards/ru/progwards/java1/lessons/classes/Animal$AnimalKind.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Progwards/ru/progwards/java1/lessons/classes/Animal$AnimalKind.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Progwards/ru/progwards/java1/lessons/classes/Animal$FoodKind.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Progwards/ru/progwards/java1/lessons/classes/Animal$FoodKind.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Progwards/ru/progwards/java1/lessons/classes/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Progwards/ru/progwards/java1/lessons/classes/Animal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Progwards/ru/progwards/java1/lessons/interfaces/CompareWeight.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Progwards/ru/progwards/java1/lessons/interfaces/CompareWeight.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Progwards/ru/progwards/java1/lessons/interfaces/FoodCompare.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Progwards/ru/progwards/java1/lessons/interfaces/FoodCompare.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Progwards/ru/progwards/java1/lessons/io1/LineCount.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Fact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Fact.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ru/progwards/java1/lessons/bigints/AbsInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/progwards/java1/lessons/bigints/AbsInteger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/progwards/java1/lessons/bigints/ArrayInteger.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/progwards/java1/lessons/bigints/BigAlgebra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/progwards/java1/lessons/bigints/BigAlgebra.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ru/progwards/java1/lessons/bigints/ByteInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/progwards/java1/lessons/bigints/ByteInteger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ru/progwards/java1/lessons/bigints/IntInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/progwards/java1/lessons/bigints/IntInteger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ru/progwards/java1/lessons/bigints/ShortInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/progwards/java1/lessons/bigints/ShortInteger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/progwards/java1/lessons/bitsworld/SumBits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/progwards/java1/lessons/bitsworld/SumBits.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/progwards/java1/lessons/interfaces/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/progwards/java1/lessons/interfaces/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/progwards/java1/lessons/interfaces/CompareWeight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/progwards/java1/lessons/interfaces/CompareWeight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/progwards/java1/lessons/interfaces/Food.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/progwards/java1/lessons/interfaces/Food.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/progwards/java1/lessons/io1/LineCount.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
